@@ -1,1 +1,0 @@
-D:\virtualenv\projectenv\Scripts\activate.bat
