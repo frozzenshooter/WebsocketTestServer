@@ -45,7 +45,7 @@ class Server:
             timestamp = time.time()
             timestampString = datetime.datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
             logging.info(f"{timestampString}")
-            await ws.send(timestampString)
+            await ws.send(f"{timestamp}")
             await asyncio.sleep(INTERVAL)
 
 
